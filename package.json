@@ -1,0 +1,24 @@
+{
+    "name": "typescript-es6-module-example",
+    "version": "1.0.0",
+    "description": "Example Application to test typescript generated Javascript in an es6 Module webpage",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server dist -e js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node build.js"
+    },
+    "author": "42tg",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "@types/lodash": "^4.14.120",
+        "babelify": "^10.0.0",
+        "browserify": "^16.2.3",
+        "http-server": "^0.11.1",
+        "lodash": "^4.17.11",
+        "tsify": "^4.0.1",
+        "typescript": "^3.2.4"
+    }
+}
